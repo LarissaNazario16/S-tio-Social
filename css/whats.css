@@ -1,0 +1,12 @@
+.icon{
+    background-attachment: scroll;
+}
+
+#icone_whats{
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+    top: 92%;
+    right: 1%;
+    z-index: 10000;
+}  
