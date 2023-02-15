@@ -8,17 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/whats.css">
     <link rel="stylesheet" href="./css/contato.css">
-
+    <link rel="stylesheet" href="./css/carousel-automatico.css">
+    <link rel="stylesheet" href="./css/carousel-setas.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <title>Sítio Social</title>
 </head>
 
 <body>
     <header>
-       
-            <a href="#contato">Contato</a>
+       <!--Menu-->
+            <a href="#contato" id="voltar">Contato</a>
             <a href="#">Distribuidor</a>
             <a href="#">Produtor</a>
-            <a href="#">Coletor</a>
+            <a href="./cadastro-coletor.html">Coletor</a>
             <a href="#">Voluntário</a>
             <button><a href="#">Administrador</a></button>
         
@@ -27,6 +29,7 @@
     </header>
 
     <main>
+        <!--Historia-->
         <img src="./img/pag-home/021fd35f-6ff7-4b05-91a3-16cb3403aa22.jpeg" alt="" srcset="">
             <section class="sobre__texto">
                 <h2>História da nossa Instituição</h2>
@@ -64,32 +67,75 @@
             <a href="https://wa.me/5551984129881"><img src="./img/pag-home/whatsapp.png" alt="WhatsApp" id="icone_whats"></a>
         </div>
 
+        <!--Carousel com imagens-->
+        <h2 style="text-align:center">Multiple Slideshows</h2>
+        <p>Slideshow 1:</p>
+        <div class="slideshow-container">
+            <div class="mySlides1">
+                <img src="" alt="" id="tamanho">
+            </div>
+
+            <div class="mySlides1">
+                <img src="" alt="" id="tamanho">
+            </div>
+
+            <div class="mySlides1">
+                <img src="" alt="" id="tamanho">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+
+        <!--Cards dos cadastros-->
         <section class="card">
             <div class="card produtor">
               <h2>Produtor</h2>
               <p>Quem faz a promoção de bens, mercadorias, serviços etc. Pessoa cuja responsabilidade é criar, cultivar ou fornecer produtos agrícolas</p>
-              <button class="casdastro-produtor">Cadastre</button>
+              <button class="casdastro-produtor"><a href="">Cadastre-se</a></button>
             </div>
        
             <div class="card coletor">
               <h2>Coletor</h2>
               <p>A função dos Coletores, como o próprio nome sugere, é coletar informações. Porém, hoje, eles vão muito além disso. Podem ser usados para controle e recebimento de materiais, separação de pedidos, apontamento de produção, entre outros.</p>
-              <button class="casdastro-coletor">Cadastre</button>
+              <button class="casdastro-coletor"><a href="./cadastro-coletor.html">Cadastre-se</a></button>
             </div>
        
             <div class="card distribuidor">
               <h2>Distribuidor</h2>
               <p>Os distribuidores são considerados comerciantes e até mesmo atacadistas em algumas situações. Eles adquirem os produtos dos fabricantes e estocam essas mercadorias para a posterior distribuição e comercialização no mercado.</p>
-              <button class="casdastro-distribuidor">Cadastre</button>
+              <button class="casdastro-distribuidor"><a href="">Cadastre-se</a></button>
             </div>
 
             <div class="card voluntario">
                 <h2>Voluntário</h2>
                 <p> voluntariado é caracterizado como um trabalho sem retorno financeiro, isto é, sem remuneração em vínculo empregatício. É então, um conjunto de ações focadas, especialmente, em interesses sociais e comunitários para a população, ou seja, a doação do seu tempo em prol de ajudar o outro.</p>
-                <button class="casdastro-voluntario">Cadastre</button>
+                <button class="casdastro-voluntario"><a href="">Cadastre-se</a></button>
             </section>
 
-            
+            <!--Carousel com os patrocinadores-->
+            <h2>Título</h2>
+            <p>Texto</p>
+            <div class="slideshow-container">
+                    <div class="mySlides fade">
+                    <img src="img_nature_wide.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                    </div>
+                <div class="mySlides fade">
+                    <img src="img_snow_wide.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="img_mountains_wide.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+            </div>
+            <br>
+            <div id="style">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
 
     </main>
 
@@ -99,11 +145,13 @@
             <h5>comunicacao.cesmar@maristas.org.br</h5>
             <h5>(51) 3086-2300</h5>
         </section>
-        <button id="voltar-home"><a href="#contato">Voltar ao topo</a></button>
+        <button id="voltar-home"><a href="#voltar">Voltar ao topo</a></button>
     </footer>
 
     <!--Script-->
     <script src="./js/link-interativo.js"></script>
+    <script src="./js/carousel-automatico.js"></script>
+    <script src="./js/carousel-setas.js"></script>
 
 </body>
 </html>
