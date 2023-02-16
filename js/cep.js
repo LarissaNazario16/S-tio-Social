@@ -1,3 +1,4 @@
+/*validacao do cep*/
 'use strict';
 
 const limparFormulario = (endereco) =>{
@@ -38,6 +39,5 @@ const pesquisarCep = async() => {
     }
      
 }
-
 document.getElementById('cep')
         .addEventListener('focusout',pesquisarCep);
