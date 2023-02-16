@@ -34,6 +34,19 @@
                 <label for="tel">Telefone</label>
             </div>
             <div class="inputbox">
+                <input type="text" id="Tipo de Alimento:"  required placeholder="Fruta, Legume e Vegatais">
+                <label for="alimento">Tipo de alimento</label>
+                    <select id="alimento" name="alimento">
+                    <option value="frutas">Frutas</option>
+                    <option value="legumes">Legumes</option>
+                    <option value="Ambos">Ambos</option>
+                    </select>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="quantidade"  required placeholder="(XX)XXXXX-XXXX">
+                <label for="quantidade">Quantidade</label>
+            </div>
+            <div class="inputbox">
                 <input type="text" id="cpf" required placeholder="XXX.XXX.XXX-XX">
                 <label for="cpf">CPF</label>
             </div>
@@ -75,7 +88,7 @@
             </div>
         </div>
         <div class="row">
-            <button>Cadastrar</button> 
+            <button>Cadastrar</button>
         </div>
     </main>
 
