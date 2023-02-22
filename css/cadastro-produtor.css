@@ -1,0 +1,290 @@
+.container{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -16px 16px 70px 0px #4A3F3F;;
+    position: relative;
+    top:20px;
+    left: 294px;
+    width: 600px;
+    height: 1300px;
+    bottom: 20px;
+}
+
+#img-produtor{
+    position: relative;
+    left:80px;
+    top: 4px;
+}
+
+#titulo-verde{
+    width: 197px;
+    height: 52px;
+    position: relative;
+    top:-90px;
+    left: -150px;
+    color: #638A02;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'Montserrat';
+}
+
+#label-verde-nome{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    right: 454px;
+    top: 350px;
+    left: 114px;
+    bottom: 1168px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #638A02;
+}
+
+#input-verde-nome{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 390px;
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+#label-verde-email{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 450px;
+    right: 454px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #638A02;
+}
+
+#input-verde-email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 490px;
+
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+
+#label-verde-telefone{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 550px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #638A02;
+}
+
+#input-verde-telefone{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 590px;
+
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+
+#label-verde-alimento{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 650px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #638A02;
+}
+#alimento{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 690px;
+
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+#label-verde-cpf{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 750px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #638A02;
+}
+
+#input-verde-cpf{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 790px;
+
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+#label-verde-cnpj{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 850px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #638A02;
+}
+
+#input-verde-cnpj{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 890px;
+
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+#label-verde-disponibilidade{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 950px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #638A02;
+}
+
+#disponibilidade{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 990px;
+
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+#label-verde-cep{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    right: 865px;
+    top: 1080px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #638A02;
+}
+
+#input-verde-cep{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 380px;
+    top: 1120px;
+
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+}
+
+#botao-verde{
+    box-sizing: border-box;
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    top: 1200px;
+    left: 450px;
+    background: #FFFFFF;
+    border: 2px solid #638A02;
+    border-radius: 300px;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #638A02;
+   
+}
+a{
+    text-decoration: none;
+    color: #638A02;
+}
