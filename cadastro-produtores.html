@@ -16,12 +16,10 @@
     </header>
 
     <main>
-
-
+    <!--formulario-->
     <div class="container">
         <img src="./img/cadastros/produtor.png" id="img-produtor">
 
-    <!--formulario-->
     <h3 id="titulo-verde">Produtor</h3>
         <div class="row">
             <div class="inputbox">
@@ -31,7 +29,6 @@
             <div class="inputbox">
                 <input type="email" id="input-verde-email"  required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
                 <label for="email" id="label-verde-email">Email</label>
-                <span id="error-email"></span>
             </div>
             <div class="inputbox">
                 <input type="text" id="input-verde-telefone"  required placeholder="(XX)XXXXX-XXXX">
@@ -62,24 +59,21 @@
                         </select>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="inputbox">
-                <input type="text" id="input-verde-cep" required placeholder="CEP">
-                <label for="cep" id="label-verde-cep">CEP</label>
+            <div class="row">
+                <div class="inputbox">
+                    <input type="text" id="input-verde-cep" required placeholder="CEP">
+                    <label for="cep" id="label-verde-cep">CEP</label>
+                </div>
             </div>
-        </div>
         <button id="botao-verde"><a href="./index.html">Criar Cadastro</a></button>
     </div>
     </main>
 
     <footer>
-   
     </footer>
 
     <!--script-->
-    <script src="./js/cep.js"></script>
-    <script src="./js/email.js"></script>
+    
 
 </body>
 </html>

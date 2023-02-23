@@ -8,7 +8,7 @@
     top:10px;
     left: 360px;
     width: 600px;
-    height: 1300px;
+    height: 1317px;
     margin-bottom: 100px;
 }
 
@@ -22,7 +22,7 @@
     width: 197px;
     height: 52px;
     position: relative;
-    top:-90px;
+    top:-101px;
     left: -150px;
     color: #638A02;
     font-weight: 600;
@@ -243,8 +243,8 @@
     position: absolute;
     width: 71px;
     height: 38px;
-    right: 799px;
-    top: 1135px;
+    right: 400px;
+    top: 1050px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -261,8 +261,8 @@
     position: absolute;
     width: 400px;
     height: 50px;
-    left: 447px;
-    top: 1175px;
+    left: 82px;
+    top: 1088px;
 
     background: #FFFFFF;
     border: 2px solid #638A02;
@@ -274,8 +274,8 @@
     position: absolute;
     width: 260px;
     height: 70px;
-    top: 1250px;
-    left: 530px;
+    top: 1186px;
+    left: 170px;
     background: #FFFFFF;
     border: 2px solid #638A02;
     border-radius: 300px;
