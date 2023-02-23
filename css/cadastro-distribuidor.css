@@ -1,0 +1,231 @@
+.container-azul-claro{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -16px 16px 70px 0px #4A3F3F;;
+    position: relative;
+    top:10px;
+    left: 360px;
+    width: 600px;
+    height: 1137px;
+    margin-bottom: 100px;
+}
+
+#img-distribuidor{
+    position: relative;
+    left: 129px;
+    top: 3px;
+}
+
+#titulo-azul-claro{
+    width: 197px;
+    height: 52px;
+    position: relative;
+    top:-125px;
+    left: -150px;
+    color: #328AEF;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    font-family: 'Montserrat';
+}
+
+#label-azul-claro-nome{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    right: 454px;
+    top: 276px;
+    left: 114px;
+    bottom: 1168px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #328AEF;
+}
+
+#input-azul-claro-nome{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 317px;
+    background: #FFFFFF;
+    border: 2px solid #328AEF;
+    border-radius: 300px;
+}
+
+#label-azul-claro-email{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 383px;
+    right: 454px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #328AEF;
+}
+
+#input-azul-claro-email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 428px;
+
+    background: #FFFFFF;
+    border: 2px solid #328AEF;
+    border-radius: 300px;
+}
+
+#label-azul-claro-telefone{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 495px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #328AEF;
+}
+
+#input-azul-claro-telefone{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 540px;
+
+    background: #FFFFFF;
+    border: 2px solid #328AEF;
+    border-radius: 300px;
+}
+
+#label-azul-claro-cnpj{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 607px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #328AEF;
+}
+
+#input-azul-claro-cnpj{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 80px;
+    top: 653px;
+
+    background: #FFFFFF;
+    border: 2px solid #328AEF;
+    border-radius: 300px;
+}
+
+#label-azul-claro-disponibilidade{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 114px;
+    top: 722px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color:  #328AEF;
+}
+
+#disponibilidade-azul-claro{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 82px;
+    top: 773px;
+
+    background: #FFFFFF;
+    border: 2px solid #328AEF;
+    border-radius: 300px;
+}
+
+#label-azul-claro-cep{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    right: 417px;
+    top: 842px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #328AEF;
+}
+
+#input-azul-claro-cep{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 85px;
+    top: 891px;
+
+    background: #FFFFFF;
+    border: 2px solid
+    #328AEF;
+    border-radius: 300px;
+}
+
+#botao-azul-claro{
+    box-sizing: border-box;
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    top: 999px;
+    left: 173px;
+    background: #FFFFFF;
+    border: 2px solid #328AEF;
+    border-radius: 300px;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #328AEF;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #328AEF;
+}
