@@ -1,0 +1,138 @@
+#container-laranja{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -16px 16px 70px 0px #4A3F3F;;
+    position: relative;
+    top:-7px;
+    left: 139px;
+    width: 1073px;
+    height: 727px;
+    margin-bottom: 100px;
+}
+
+#img-login{
+    position: relative;
+    left: -300px;
+}
+
+#titulo-laranja{
+    position: absolute;
+    width: 134px;
+    height: 54px;
+    left: 717px;
+    top: 22px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+
+    color: #DB7608;
+    font-family: 'Montserrat';
+}
+
+#label-azul-email{
+    position: absolute;
+    left: 572px;
+    top: 178px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #DB7608;
+}
+
+#input-azul-email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 225px;
+    left: 582px;
+
+    background: #FFFFFF;
+    border: 3px solid #DB7608;
+    border-radius: 300px;
+}
+
+
+#label-azul-senha{
+    position: absolute;
+    left: 572px;
+    top: 295px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #DB7608;
+}
+
+#password{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 336px;
+    left: 584px;
+
+    background: #FFFFFF;
+    border: 3px solid #DB7608;
+    border-radius: 300px;
+}
+
+.senha{
+    position: relative;
+    top: -371px;
+    left: 508px;    
+}
+
+#botao-laranja{
+    position: absolute;
+    width: 312px;
+    height: 76px;
+    left: 720px;
+    top: 795px;
+
+    background: rgba(227, 135, 36, 0.92);
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.28);
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    color:  #ffffff;
+}
+
+#esqueci-senha{
+    position: absolute;
+    left: 79%;
+    top: 56%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #E49846;
+}
+
+
+#cadastrar{
+    color: #FFFFFF;
+    background-color: #DB7608;
+    font-family: 'Montserrat';
+    background:#DB7608;
+    border-radius: 15px;
+    border-color: #DB7608;
+}
