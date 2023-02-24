@@ -1,0 +1,214 @@
+.modal{
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(133, 133, 133, 0.719);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99999;
+    font-family: 'Sofia Sans';
+   }
+
+   .modal-content{
+    background-color:#ffffff;
+    padding: 40px;
+    width: 722px;
+    height: 500px;
+	box-shadow: -17px 8px 20px 10px rgb(59 57 57 / 77%);
+   }
+
+   span{
+    float: right;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-color: rgba(236, 232, 232, 0);
+    text-align: center;
+    line-height: 7px;
+    position: relative;
+    left: 32px;
+    bottom: 22px;
+    font-size: 45px;
+    font-weight: 500;
+    color: #6a6565;
+
+   }
+
+   span:hover{
+    background-color: rgba(218, 213, 213, 0.89);
+   }
+
+   .show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+   }
+
+/*Estilização */
+
+form{
+    margin: 0 0 0 0;
+    padding: 0;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.box-grup-cadastro{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -1rem;
+}
+
+#label-modal-nome{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    top: 40px;
+    left: 180px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #DB7608;
+}
+
+#input-modal-nome{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 157px;
+    top: 80px;
+    background: #FFFFFF;
+    border: 2px solid #DB7608;
+    border-radius: 300px;
+}
+
+#label-modal-email{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 180px;
+    top: 140px;
+    right: 454px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #DB7608;
+}
+
+#input-modal-email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 157px;
+    top: 180px;
+
+    background: #FFFFFF;
+    border: 2px solid #DB7608;
+    border-radius: 300px;
+}
+
+
+#label-modal-cep{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 180px;
+    top: 240px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #DB7608;
+}
+
+#input-modal-cep{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 157px;
+    top: 280px;
+
+    background: #FFFFFF;
+    border: 2px solid #DB7608;
+    border-radius: 300px;
+}
+
+
+#label-modal-senha{
+    position: absolute;
+    width: 71px;
+    height: 38px;
+    left: 180px;
+    top: 340px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #DB7608;
+}
+#myPasssword{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 157px;
+    top: 380px;
+
+    background: #FFFFFF;
+    border: 2px solid #DB7608;
+    border-radius: 300px;
+}
+
+#botao-cadastro{
+    position: absolute;
+    width: 235px;
+    height: 60px;
+    left: 270px;
+    top: 480px;
+
+    background: rgba(227, 135, 36, 0.92);
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.28);
+    border-radius: 15px;
+    border-color: #DB7608;
+    
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.modal-content{
+    text-align: center;
+    position: relative;
+}
+
+
