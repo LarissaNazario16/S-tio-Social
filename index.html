@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/whats.css">
-    <link rel="stylesheet" href="./css/contato.css">
-    <link rel="stylesheet" href="./css/carousel-automatico.css">
+    <link rel="stylesheet" href="./css/home.css">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <title>AgroHouse</title>
 </head>
@@ -22,139 +20,45 @@
         <div class="icon">
             <a href="https://wa.me/5551984129881"><img src="./img/pag-home/whatsapp.png" alt="WhatsApp" id="icone_whats"></a>
         </div>
-
-
-
-        <!--Carousel com imagens-->
-        <h2 id="trabalhos-projetos">Nossos trabalhos e Projetos!</h2>
-        <p>Slideshow 1:</p>
-        <div class="slideshow-container">
-            <div class="mySlides1">
-                <img src="" alt="" id="tamanho">
-            </div>
-
-            <div class="mySlides1">
-                <img src="" alt="" id="tamanho">
-            </div>
-
-            <div class="mySlides1">
-                <img src="" alt="" id="tamanho">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-        </div>
-
-        <!--Cards dos cadastros-->
-        <section class="card">
-            <div class="card produtor">
-              <h2>Produtor</h2>
-              <p>Quem faz a promoção de bens, mercadorias, serviços etc. Pessoa cuja responsabilidade é criar, cultivar ou fornecer produtos agrícolas</p>
-              <button class="casdastro-produtor"><a href="">Cadastre-se</a></button>
-            </div>
-       
-            <div class="card coletor">
-              <h2>Coletor</h2>
-              <p>A função dos Coletores, como o próprio nome sugere, é coletar informações. Porém, hoje, eles vão muito além disso. Podem ser usados para controle e recebimento de materiais, separação de pedidos, apontamento de produção, entre outros.</p>
-              <button class="casdastro-coletor"><a href="./cadastro-coletor.html">Cadastre-se</a></button>
-            </div>
-       
-            <div class="card distribuidor">
-              <h2>Distribuidor</h2>
-              <p>Os distribuidores são considerados comerciantes e até mesmo atacadistas em algumas situações. Eles adquirem os produtos dos fabricantes e estocam essas mercadorias para a posterior distribuição e comercialização no mercado.</p>
-              <button class="casdastro-distribuidor"><a href="">Cadastre-se</a></button>
-            </div>
-
-            <div class="card voluntario">
-                <h2>Voluntário</h2>
-                <p> voluntariado é caracterizado como um trabalho sem retorno financeiro, isto é, sem remuneração em vínculo empregatício. É então, um conjunto de ações focadas, especialmente, em interesses sociais e comunitários para a população, ou seja, a doação do seu tempo em prol de ajudar o outro.</p>
-                <button class="casdastro-voluntario"><a href="">Cadastre-se</a></button>
-            </section>
-
-            <!--Carousel com os patrocinadores-->
-            <h2>Título</h2>
-            <p>Texto</p>
+        
+            <!--Carousel-->
+            <h2 id="titulo-carousel">Nossos trabalhos e Projetos!</h2>
             <div class="slideshow-container">
-                    <div class="mySlides fade">
-                    <img src="img_nature_wide.jpg" style="width:100%">
-                    <div class="text">Caption Text</div>
-                    </div>
-                <div class="mySlides fade">
-                    <img src="img_snow_wide.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
-                </div>
-                <div class="mySlides fade">
-                    <img src="img_mountains_wide.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
-                </div>
-            </div>
-            <br>
-            <div id="style">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
+              <div class="mySlides1">
+                <img src="./img/pag-home/ajude.png style="width:100%">
               </div>
 
-              <p id="demo">Clique no botão para obter sua localização:</p>
-                <button onclick="getLocation()">Clique aqui</button>
-                <div id="mapholder"></div>
+              <div class="mySlides1">
+                <img src="./img/pag-home/card-coletor.png" style="width:100%">
+              </div>
 
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script>
-var x=document.getElementById("demo");
-function getLocation()
-  {
-  if (navigator.geolocation)
-    {
-    navigator.geolocation.getCurrentPosition(showPosition,showError);
-    }
-  else{x.innerHTML="Geolocalização não é suportada nesse browser.";}
-  }
- 
-function showPosition(position)
-  {
-  lat=position.coords.latitude;
-  lon=position.coords.longitude;
-  latlon=new google.maps.LatLng(lat, lon)
-  mapholder=document.getElementById('mapholder')
-  mapholder.style.height='250px';
-  mapholder.style.width='500px';
- 
-  var myOptions={
-  center:latlon,zoom:14,
-  mapTypeId:google.maps.MapTypeId.ROADMAP,
-  mapTypeControl:false,
-  navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
-  };
-  var map=new google.maps.Map(document.getElementById("mapholder"),myOptions);
-  var marker=new google.maps.Marker({position:latlon,map:map,title:"Você está Aqui!"});
-  }
- 
-function showError(error)
-  {
-  switch(error.code)
-    {
-    case error.PERMISSION_DENIED:
-      x.innerHTML="Usuário rejeitou a solicitação de Geolocalização."
-      break;
-    case error.POSITION_UNAVAILABLE:
-      x.innerHTML="Localização indisponível."
-      break;
-    case error.TIMEOUT:
-      x.innerHTML="O tempo da requisição expirou."
-      break;
-    case error.UNKNOWN_ERROR:
-      x.innerHTML="Algum erro desconhecido aconteceu."
-      break;
-    }
-  }
-</script>
+              <div class="mySlides1">
+                <img src="./img/pag-home/card-distribuidor.png" style="width:100%">
+              </div>
 
-              
+              <div class="mySlides1">
+                <img src="./img/pag-home/card-produtor.png" style="width:100%">
+              </div>
 
+              <div class="mySlides1">
+                <img src="./img/pag-home/card-voluntario.png" style="width:100%">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+            </div>
+
+        <section id="mapa">
+          <img src="./img/pag-home/mapa.svg" alt="" srcset="">
+        </section>
     </main>
 
     <footer>
+
+      <section id="logo">
+        <img src="./img/pag-home/AgroHouse.png" alt="" srcset="">
+      </section>
+
         <section id="contato">
             <h5>Estr. Antônio Severino, 1493 - Rubem Berta, Porto Alegre - RS, 91250-330</h5>
             <h5>comunicacao.cesmar@maristas.org.br</h5>
@@ -164,7 +68,7 @@ function showError(error)
 
     <!--Script-->
     <script src="./js/link-interativo.js"></script>
-    <script src="./js/carousel-automatico.js"></script>
+    <script src="./js/carousel.js"></script>
 
 </body>
 </html>
