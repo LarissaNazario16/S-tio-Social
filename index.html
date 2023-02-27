@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <!--Banner, logo e icones-->
     <header>
       <img src="./img/pag-home/banner.png" alt="" id="banner">
     </header>
@@ -20,55 +21,105 @@
         <div class="icon">
             <a href="https://wa.me/5551984129881"><img src="./img/pag-home/whatsapp.png" alt="WhatsApp" id="icone_whats"></a>
         </div>
+
+        <!--Carousel-->
+        <h2 id="carousel-titulo">Nossos trabalhos e Projetos!</h2>
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img src="./img/pag-home/ajude.png" id="img-ajude">
+            <h1 id="titulo-ajude">Ajude Nos a ajudar</h1>
+            <p id="texto-ajude">Logo após os alimentos serem selecionados e entregues acabam sobrando muitos alimentos em nossas reversa, assim coletamos estes produtos e novamente passamos por uma seleção doamos para pessoas carentes e comunidades necessitadas.
+            </p>
+          </div>
         
-            <!--Carousel-->
-            <h2 id="titulo-carousel">Nossos trabalhos e Projetos!</h2>
-            <div class="slideshow-container">
-              <div class="mySlides1">
-                <img src="./img/pag-home/ajude.png style="width:100%">
-              </div>
+          <div class="mySlides1">
+            <img src="">
+          </div>
+        
+          <div class="mySlides1">
+            <img src="">
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
 
-              <div class="mySlides1">
-                <img src="./img/pag-home/card-coletor.png" style="width:100%">
-              </div>
 
-              <div class="mySlides1">
-                <img src="./img/pag-home/card-distribuidor.png" style="width:100%">
-              </div>
 
-              <div class="mySlides1">
-                <img src="./img/pag-home/card-produtor.png" style="width:100%">
-              </div>
 
-              <div class="mySlides1">
-                <img src="./img/pag-home/card-voluntario.png" style="width:100%">
-              </div>
 
-              <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+
+
+
+
+
+
+
+
+
+
+        <!--Card-->
+            <h2 id="card-titulo">Seja um colaborador de nossos trabalho e Faça a diferença!</h2>
+
+            <div class="card">
+              <img src="./img/pag-home/card-produtor.png" alt="" id="img-produtor">
+              <h1 id="titulo-produtor">Produtor</h1>
+              <p id="texto-produtor">Sabedoria em alimentos no geral, conhecer as melhores estações e como se cultivar alimentos</p>
+              <p><button id="cadastro"><a href="cadastro-produtores.html">Cadastra-se</a></button></p>
             </div>
 
+            <div class="card-distribuidor">
+              <img src="./img/pag-home/card-distribuidor.png" alt="" id="img-distribuidor">
+              <h1 id="titulo-distribuidor">Distribuidor</h1>
+              <p id="texto-distribuidor">Os distribuidores oferecem os alimentos recolhidos para pessoas carentes.</p>
+              <p><button id="cadastro-distribuidor"><a href="cadastro-distribuicao.html">Cadastra-se</a></button></p>
+            </div>
+            
+            <div class="card-coletor">
+              <img src="./img/pag-home/card-coletor.png" alt="" id="img-coletor">
+              <h1 id="titulo-coletor">Coletor</h1>
+              <p id="texto-coletor">Os coletores selecionam os nossos alimento para que possams ter alimentos de qualidade.</p>
+              <p><button id="cadastro-coletor"><a href="cadastro-coletor.html">Cadastra-se</a></button></p>
+            </div>
+
+            <div class="card-voluntario">
+              <img src="./img/pag-home/card-voluntario.png" alt="" id="img-voluntario">
+              <h1 id="titulo-voluntario">Voluntário</h1>
+              <p id="texto-voluntario">Se você sonha em ajudar, venha para AgroHouse, assim estará ajudando nossas comunidades mais proximas e se tornará um contribuidor no Projeto.</p>
+              <p><button id="cadastro-voluntario"><a href="cadastro-voluntario.html">Cadastra-se</a></button></p>
+            </div>
+
+            <div class="card-login">
+              <img src="./img/pag-home/card-login.png" alt="" id="img-login">
+              <h1 id="titulo-login">Doações</h1>
+              <p id="texto-login">Aqui nós disponibilizamos para vocês uma ótima qualidade de frutas e verduras.</p>
+              <p><button id="cadastro-login"><a href="login.html">Cadastra-se</a></button></p>
+            </div>
+
+        <!--Mapa-->
         <section id="mapa">
+          <button id="botao-falso"><a href="#">Mapa</a></button>
           <img src="./img/pag-home/mapa.svg" alt="" srcset="">
         </section>
     </main>
 
+      <!--Contato-->
     <footer>
-
-      <section id="logo">
-        <img src="./img/pag-home/AgroHouse.png" alt="" srcset="">
-      </section>
-
         <section id="contato">
             <h5>Estr. Antônio Severino, 1493 - Rubem Berta, Porto Alegre - RS, 91250-330</h5>
             <h5>comunicacao.cesmar@maristas.org.br</h5>
             <h5>(51) 3086-2300</h5>
+        </section>
+
+        <section>
+          <button id="botao-voltar"><a href="#banner">Voltar ao topo</a></button>
         </section>
     </footer>
 
     <!--Script-->
     <script src="./js/link-interativo.js"></script>
     <script src="./js/carousel.js"></script>
+    
 
 </body>
 </html>

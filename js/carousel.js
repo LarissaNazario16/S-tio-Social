@@ -1,4 +1,3 @@
-
 let slideIndex = [1,1];
 let slideId = ["mySlides1"]
 showSlides(1, 0);
