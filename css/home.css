@@ -1,3 +1,42 @@
+#banner{
+    width: 1341px;
+    height: 525px;
+    position: relative;
+    left: -8px;
+    top: -8px;
+}
+
+#logo{
+    height: 114px;
+    width: 385px;
+    position: relative;
+    left: 300px;
+    top: -360px;
+}
+
+#usuario{
+    position: relative;
+    top: -530px;
+    left: 840px;
+}
+
+#historia{
+    position: relative;
+    top: -88px;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #064275;
+}
+
+#paragrafo{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    position: relative;
+    top: -100px;
+    font-family: 'Montserrat';
+}
+
 #contato{
     font-family: 'Montserrat';
     text-align: center;
@@ -25,14 +64,6 @@
     position: relative;
     right: -30px;
     top: 2450px;
-}
-
-#logo{
-    height: 114px;
-    width: 385px;
-    position: relative;
-    left: 7px;
-    top: 30px;
 }
 
 #botao-voltar{
@@ -382,15 +413,13 @@ a{
     width: 485px;
     height: 42px;
     left: 39px;
-    top: 563px;
-
+    top: 1011px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 33px;
     line-height: 42px;
-
-    color: #18456B;
+    color: rgb(24, 69, 107);
 }
 
 .mySlides1 {display: none}
@@ -431,44 +460,5 @@ img {vertical-align: middle;}
   color: black;
 }
 
-#img-ajude{
-    position: absolute;
-    width: 662.22px;
-    height: 252.53px;
-    left: 20.78px;
-    top: 1.01px;
-
-    background: url(Capa-Blog-4.png);
-    border-radius: 15px 15px 120px 0px;
-}
-
-#texto-ajude{
-    position: absolute;
-    width: 663px;
-    height: 424.96px;
-    left: 20px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: -7px 14px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-}
-
-#titulo-ajude{
-    position: absolute;
-    width: 402px;
-    height: 42.26px;
-    left: 30px;
-    top: 259.56px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 42px;
-    /* identical to box height */
 
 
-    color: #783206;
-
-}
