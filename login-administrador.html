@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login-administrador.css">
+    <title>AgroHouse</title>
+</head>
+<body>
+    <header>
+       <a href="./index.html"><img src="./img/cadastros/seta-vermelha.png" alt="" id="volta-pag"></a>
+    </header>
+
+    <main>
+    <!--formulario-->
+    <div id="container-vermelho">
+    <h3 id="titulo-vermelho">Login do Administrador</h3>
+        <div class="row">
+                <div class="inputbox">
+                    <input type="email" id="input-vermelho-email"  required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
+                    <label for="email" id="label-vermelho-email">Email</label>
+                </div>
+
+                <div class="inputbox">
+                    <label for="senha" id="label-vermelho-senha">Senha</label>
+                    <input type="password" id="password" placeholder="Crie uma senha" required>
+                </div>
+                <button id="botao-vermelho"><a href="">Entrar</a></button>
+            </div>
+            </div>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>

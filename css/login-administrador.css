@@ -1,0 +1,103 @@
+#container-vermelho{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -16px 16px 70px 0px #4A3F3F;;
+    position: relative;
+    top:-45px;
+    left: 139px;
+    width: 1073px;
+    height: 560px;
+    margin-bottom: 100px;
+}
+
+#titulo-vermelho{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 90px;
+    top: 120px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #e02130;
+    font-family: 'Montserrat';
+}
+
+#label-vermelho-email{
+    position: absolute;
+    left: 572px;
+    top: 110px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #e02130;
+}
+
+#input-vermelho-email{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 160px;
+    left: 580px;
+    background: #FFFFFF;
+    border: 3px solid #e02130;
+    border-radius: 300px;
+}
+
+
+#label-vermelho-senha{
+    position: absolute;
+    left: 570px;
+    top: 240px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #e02130;
+}
+
+#password{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    top: 290px;
+    left: 580px;
+    background: #FFFFFF;
+    border: 3px solid #e02130;
+    border-radius: 300px;
+}
+
+.senha{
+    position: relative;
+    top: -371px;
+    left: 508px;    
+}
+
+#botao-vermelho{
+    position: absolute;
+    width: 312px;
+    height: 76px;
+    left: 620px;
+    bottom: 75px;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    background: #e02130;
+    box-shadow: 0px 4px 14px rgb(0 0 0 / 28%);
+    border-radius: 15px;
+    border-color: #e02130;
+}
+
+a{
+    text-decoration: none;
+    color:  #ffffff;
+}
