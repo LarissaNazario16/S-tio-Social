@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/whats.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/usuario.css">
     <title>AgroHouse</title>
 </head>
 
@@ -21,6 +22,18 @@
         <img src="./img/pag-home/LOGO.png" alt="" id="logo">
         <a href="#"><img src="" alt="" id="usuario"></a>
       </div>
+
+      <section id="menu-nav">
+        <button id="btn" aria-label="Abrir menu de Usuário" aria-haspopup="true" aria-expanded="false" aria-controls="menu">
+            <a href="#"><img src="./img/pag-home/adicionar-usuario.png" alt="" class="icon-header-menu"></a>
+        </button>
+        <ul id="usuario" role="menu">
+            <li>Login para cliente<a href="./login.html"></a></li>
+            <li>Administrador<a href="./login-administrador.html"></a></li>
+            <li>Seu perfil</li>
+            <li>Configurações</li>
+        </ul>
+    </section>
     </header>
 
     <main>
@@ -154,7 +167,7 @@
     <!--Script-->
     <script src="./js/link-interativo.js"></script>
     <script src="./js/carousel.js"></script>
-    
+    <script src="./js/user-menu.js"></script>
 
 </body>
 </html>
