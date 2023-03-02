@@ -1,0 +1,477 @@
+#logo{
+    position: absolute;
+    left: 12.79%;
+    top: 20%;
+}
+
+#banner{
+    position: relative;
+    left: -7px;
+    top: -9px;
+    width: 1348px;
+}
+
+#titulo{
+    position: absolute;
+    width: 241px;
+    height: 42px;
+    left: 44px;
+    top: 493px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 42px;
+    color: #18456B;
+}
+
+#subtitulo{
+    position: absolute;
+    width: 425px;
+    height: 30px;
+    left: 44px;
+    top: 535px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: rgba(24, 69, 107, 0.7);
+}
+
+#frutas{
+    position: absolute;
+    width: 85px;
+    height: 43px;
+    left: 40px;
+    top: 615px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #064275;
+}
+
+#legumes{
+    position: absolute;
+    width: 118px;
+    height: 43px;
+    left: 660px;
+    top: 615px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #064275;
+}
+
+#linha1{
+    position: absolute;
+    width: 202px;
+    height: 3px;
+    left: 40px;
+    top: 680px;
+    background: rgba(50, 138, 239, 0.4);
+}
+
+#linha2{
+    position: absolute;
+    width: 202px;
+    height: 3px;
+    left: 660px;
+    top: 680px;
+    background: rgba(50, 138, 239, 0.4);
+}
+
+#laraja{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 690px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #C07F0D;
+}
+
+#dados{
+    position: relative;
+    left: 300px;
+}
+
+#grupo-laranja{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 767px;
+    background: #FFFFFF;
+    border: 2px solid rgba(253, 162, 9, 0.9);
+    border-radius: 78px 15px 15px 78px;
+}
+
+#data-laranja{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-laranja{
+    width: 59px;
+    height: 36px;
+    left: 170px;
+    top: 50px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-laranja{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#tangerina{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 900px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #F56D01;
+}
+
+#dados-tangerina{
+    position: relative;
+    left: 300px;
+}
+
+#grupo-tangerina{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 980px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(245, 109, 1);
+    border-radius: 78px 15px 15px 78px; 
+}
+
+
+
+#data-tangerina{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-tangerina{
+    width: 59px;
+    height: 36px;
+    left: 170px;
+    top: 50px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-tangerina{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#melao{
+    position: absolute;
+    width: 84px;
+    height: 36px;
+    left: 144px;
+    top: 1115px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #F56D01;
+}
+
+#dados-melao{
+    position: relative;
+    left: 300px;
+}
+
+#grupo-melao{
+    box-sizing: border-box;
+    position: absolute;
+    width: 530px;
+    height: 156px;
+    left: 40px;
+    top: 1192px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(245, 109, 1);
+    border-radius: 78px 15px 15px 78px; 
+}
+
+
+
+#data-melao{
+    position: absolute;
+    width: 123px;
+    height: 36px;
+    left: 170px;
+    top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+#local-melao{
+    width: 59px;
+    height: 36px;
+    left: 170px;
+    top: 50px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#horario-melao{
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    left: 170px;
+    top: 90px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20PX;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    position: absolute;
+    left: 14.2%;
+    right: 14.23%;
+    top: 18.24%;
+    bottom: 19.37%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#mapa{
+    position: relative;
+    top: 2050px;
+    left: 30px;
+}
+
+#endereco{
+    position: absolute;
+    top: 3005px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 300px;
+}
+
+#email{
+    position: absolute;
+    top: 3045px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 500px;
+}
+
+#telefone{
+    position: absolute;
+    top: 3090px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 600px;
+}
+
+#botao-voltar{
+    position: absolute;
+    left: 950px;
+    top: 3170px;
+    width: 180px;
+    height: 50px;
+    background: #0537B5;
+    border-color: #0537B5;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#link-voltar{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
