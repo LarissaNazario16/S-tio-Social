@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 #logo{
     position: absolute;
     left: 12.79%;
@@ -474,7 +478,7 @@ a{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
 
     color: #18456B;
@@ -707,8 +711,13 @@ a{
 
 #mapa{
     position: relative;
-    top: 1650px;
+    top: 1640px;
     left: 30px;
+}
+
+#container-contato{
+    position: relative;
+    top: -1320px;
 }
 
 #endereco{
@@ -747,7 +756,7 @@ a{
 #botao-voltar{
     position: absolute;
     left: 950px;
-    top: 3170px;
+    top: 3120px;
     width: 180px;
     height: 50px;
     background: #0537B5;
@@ -759,7 +768,6 @@ a{
     position: absolute;
     left: 20px;
     top: 5px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
