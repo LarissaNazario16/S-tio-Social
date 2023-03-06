@@ -23,6 +23,7 @@
                 <div class="inputbox">
                     <input type="email" id="input-azul-email"  required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
                     <label for="email" id="label-azul-email">Email</label>
+                    <small id="textEmail"></small>
                 </div>
 
                 <div class="inputbox">
@@ -55,6 +56,7 @@
                                 <div class="inputbox">
                                         <label for="email" id="label-modal-email">Email</label>
                                         <input type="email" id="input-modal-email" placeholder="...@gmail.com" required>
+                                        <small id="textEmail"></small>
                                 </div>
                                 <div class="inputbox">
                                         <label for="cep" id="label-modal-cep">CEP</label>
@@ -63,16 +65,18 @@
                                 <div class="inputbox">
                                         <label for="senha" id="label-modal-senha">Senha</label>
                                         <input type="password" name="password" id="myPasssword" placeholder="Crie senha" required>
-                                    </div>
+                                        <small id="textPassword"></small>
+                                </div>
                             </div>
                         </div>                 
                     </div>
                     <input type="submit" value="Confirmar" id="botao-cadastro" onclick="hideModal()">
+                    <small id="textForm"></small>
                 </form>   
             </div>
         </div>
-        <p class="error-validation template"></p>
-        
+       
+
     </main>
 
     <footer>
@@ -82,7 +86,7 @@
 
     <!--script-->
     <script src="./js/modal-cadastro.js"></script>
-
+    <script src="./js/email.js"></script>
 
 </body>
 </html>

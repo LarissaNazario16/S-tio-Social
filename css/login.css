@@ -12,6 +12,15 @@
     margin-bottom: 100px;
 }
 
+#textEmail{
+    font-family: 'Montserrat';
+    position: relative;
+    top: 230px;
+    right: -90px;
+    color: red;
+    font-weight: bold;
+}
+
 #img-login{
     position: relative;
     left: -300px;
