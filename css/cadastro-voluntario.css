@@ -75,7 +75,7 @@
     color: #0537B5;
 }
 
-#input-azul-email{
+#email{
     box-sizing: border-box;
     position: absolute;
     width: 400px;
@@ -105,7 +105,7 @@
     color: #0537B5;
 }
 
-#input-azul-telefone{
+#telefone{
     box-sizing: border-box;
 
     position: absolute;
