@@ -28,7 +28,8 @@
 
                 <div class="inputbox">
                     <label for="senha" id="label-azul-senha">Senha</label>
-                    <input type="password" id="password" placeholder="Crie uma senha" required>
+                    <input type="password" id="password" placeholder="Sua senha" required>
+                    <input type="checkbox" id="visualizar" onclick="myFunction()"><h5>Visualizar senha</h5>
                 </div>
                 <a href="#" id ="esqueci-senha">Esqueci a senha </a>
             
@@ -56,7 +57,6 @@
                                 <div class="inputbox">
                                         <label for="email" id="label-modal-email">Email</label>
                                         <input type="email" id="input-modal-email" placeholder="...@gmail.com" required>
-                                        <small id="textEmail"></small>
                                 </div>
                                 <div class="inputbox">
                                         <label for="cep" id="label-modal-cep">CEP</label>
@@ -65,7 +65,6 @@
                                 <div class="inputbox">
                                         <label for="senha" id="label-modal-senha">Senha</label>
                                         <input type="password" name="password" id="myPasssword" placeholder="Crie senha" required>
-                                        <small id="textPassword"></small>
                                 </div>
                             </div>
                         </div>                 
@@ -87,6 +86,7 @@
     <!--script-->
     <script src="./js/modal-cadastro.js"></script>
     <script src="./js/email.js"></script>
+    <script src="./js/senha.js"></script>
 
 </body>
 </html>

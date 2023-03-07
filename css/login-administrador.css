@@ -12,6 +12,19 @@
     margin-bottom: 100px;
 }
 
+#visualizar{
+    position: relative;
+    left: 300px;
+    top: 350px;
+}
+
+h5{
+    display: inline;
+    position: relative;
+    left: 300px;
+    top: 350px;
+}
+
 #titulo-vermelho{
     position: absolute;
     width: 130px;
