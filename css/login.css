@@ -14,15 +14,15 @@
 
 #visualizar{
     position: relative;
-    left: 300px;
+    left: 95px;
     top: -330px;
 }
 
 h5{
     display: inline;
     position: relative;
-    left: 300px;
-    top: -330px;
+    left: 100px;
+    top: -332px;
 }
 
 #textEmail{
@@ -133,6 +133,10 @@ h5{
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.28);
     border-radius: 15px;
     border-color: #E49846;
+}
+
+#botao-laranja:hover{
+    background: #E49B4B;
 }
 
 a{
