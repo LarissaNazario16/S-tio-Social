@@ -21,6 +21,128 @@ body{
     width: 1348px;
 }
 
+#container-formulario{
+    position: absolute;
+    top:2500px;
+}
+
+#instituicao{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 183px;
+    top: -80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#instituicao-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 133px;
+    top: -30px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#alimento{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 700px;
+    top: -80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#alimento-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 667px;
+    top: -30px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#horario{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 183px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#horario-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 133px;
+    top: 110px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#nome{
+    position: absolute;
+    width: 142px;
+    height: 43px;
+    left: 700px;
+    top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #000000;
+}
+
+#nome-input{
+    position: absolute;
+    width: 420px;
+    height: 50px;
+    left: 667px;
+    top: 110px;
+
+    background: #FFFFFF;
+    border: 4px solid #328AEF;
+    border-radius: 15px;
+}
+
+#reservar-botao{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 210px;
+    left: 515px;
+    width: 200px;
+    height: 50px;
+    border: 3px solid #4191EC;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
 #titulo{
     position: absolute;
     width: 241px;
@@ -175,6 +297,11 @@ body{
     color: #FFFFFF;
 
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#dados:hover{
+    background-color: #119696;
+    border-color: #119696;
 }
 
 #laraja{
@@ -1417,13 +1544,13 @@ a{
 
 #mapa{
     position: relative;
-    top: 2540px;
+    top: 2900px;
     left: 30px;
 }
 
 #container-contato{
     position: relative;
-    top: -470px;
+    top: -105px;
 }
 
 #endereco{
@@ -1462,7 +1589,7 @@ a{
 #botao-voltar{
     position: absolute;
     left: 950px;
-    top: 3530px;
+    top: 3897px;
     width: 180px;
     height: 50px;
     background: #0537B5;
