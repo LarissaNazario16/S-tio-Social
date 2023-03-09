@@ -19,34 +19,36 @@
         <img src="./img/cadastros/voluntario.png" id="img-voluntario">   
     <h3 id="titulo-azul">Voluntário</h3>
         <div class="row">
-            <div class="inputbox">
-                <input type="text" id="input-azul-nome" required placeholder="Nome completo">
-                <label for="nome" id="label-azul-nome">Nome</label>
+            <form action="" method="post">
+                <div class="inputbox">
+                    <input type="text" id="input-azul-nome" required placeholder="Nome completo">
+                    <label for="nome" id="label-azul-nome">Nome</label>
+                </div>
+                <div class="inputbox">
+                    <input type="email" id="email"  required placeholder="Email">
+                    <label for="email" id="label-azul-email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="telefone" required placeholder="(XX)XXXXX-XXXX">
+                    <label for="tel" id="label-azul-telefone">Telefone</label>
+                </div>
+                <div class="inputbox">
+                    <label for="disponibilidade" id="label-azul-disponibilidade">Disponibilidade</label>
+                        <select name="disponibilidade-azul" id="disponibilidade-azul">
+                        <option value="frutas">Manhã</option>
+                        <option value="legumes">Tarde</option>
+                        <option value="Ambos">Noite</option>
+                        </select>
+                </div>
             </div>
-            <div class="inputbox">
-                <input type="email" id="email"  required placeholder="Email">
-                <label for="email" id="label-azul-email">Email</label>
+            <div class="row">
+                <div class="inputbox">
+                    <input type="text" id="input-azul-cep" required placeholder="CEP">
+                    <label for="cep" id="label-azul-cep">CEP</label>
+                </div>
             </div>
-            <div class="inputbox">
-                <input type="text" id="telefone" required placeholder="(XX)XXXXX-XXXX">
-                <label for="tel" id="label-azul-telefone">Telefone</label>
-            </div>
-            <div class="inputbox">
-                <label for="disponibilidade" id="label-azul-disponibilidade">Disponibilidade</label>
-                    <select name="disponibilidade-azul" id="disponibilidade-azul">
-                    <option value="frutas">Manhã</option>
-                    <option value="legumes">Tarde</option>
-                    <option value="Ambos">Noite</option>
-                    </select>
-            </div>
-        </div>
-        <div class="row">
-            <div class="inputbox">
-                <input type="text" id="input-azul-cep" required placeholder="CEP">
-                <label for="cep" id="label-azul-cep">CEP</label>
-            </div>
-        </div>
-        <button id="botao-azul"><a href="./index.html">Criar Cadastro</a></button>
+        </form>
+        <button id="submit"><a href="./index.html">Criar Cadastro</a></button>
        </div>
     </main>
 

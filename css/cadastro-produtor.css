@@ -269,7 +269,13 @@
     border-radius: 300px;
 }
 
-#botao-verde{
+#volta-pag{
+    position: relative;
+    left: 325px;
+    top: 47px;
+}
+
+#submit{
     box-sizing: border-box;
     position: absolute;
     width: 260px;

@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="./index.html"><img src="./img/cadastros/seta-esquerda-marrom.png" alt=""></a>
+        <a href="./index.html" id="volta-pag"><img src="./img/cadastros/seta-esquerda-marrom.png" alt=""></a>
     </header>
 
     <main>
@@ -22,42 +22,44 @@
         <img src="./img/cadastros/coletor.png" alt="" id="img-coletor">
         <h3 id="titulo-marrom">Coletor</h3>
             <div class="row">
-                <div class="inputbox">
-                    <input type="text" id="input-marrom-nome" required placeholder="Nome completo">
-                    <label for="nome" id="label-marrom-nome">Nome</label>
+                <form action="" method="post" class="form">
+                    <div class="inputbox success">
+                        <input type="text" id="input-marrom-nome" required placeholder="Nome completo">
+                        <label for="nome" id="label-marrom-nome">Nome</label>
+                    </div>
+                    <div class="inputbox error">
+                        <input type="email" id="input-marrom-email"  required placeholder="Email">
+                        <label for="email" id="label-marrom-email">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" id="input-marrom-telefone"  required placeholder="(XX)XXXXX-XXXX">
+                        <label for="tel" id="label-marrom-telefone">Telefone</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" id="input-marrom-cpf" required placeholder="XXX.XXX.XXX-XX">
+                        <label for="cpf" id="label-marrom-cpf">CPF</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" id="input-marrom-cnpj" required placeholder="XXXX.XXX.XXX/0001-XX">
+                        <label for="cnpj" id="label-marrom-cnpj">CNPJ</label>
+                    </div>
+                    <div class="inputbox">
+                        <label for="disponibilidade" id="label-marrom-disponibilidade">Disponibilidade</label>
+                            <select id="disponibilidade-marrom" name="disponibilidade">
+                            <option value="frutas">Manhã</option>
+                            <option value="legumes">Tarde</option>
+                            <option value="Ambos">Noite</option>
+                            </select>
+                    </div>
                 </div>
-                <div class="inputbox">
-                    <input type="email" id="input-marrom-email"  required placeholder="Email">
-                    <label for="email" id="label-marrom-email">Email</label>
+                <div class="row">
+                    <div class="inputbox">
+                        <input type="text" id="input-marrom-cep" required placeholder="CEP">
+                        <label for="cep" id="label-marrom-cep">CEP</label>
+                    </div>
                 </div>
-                <div class="inputbox">
-                    <input type="text" id="input-marrom-telefone"  required placeholder="(XX)XXXXX-XXXX">
-                    <label for="tel" id="label-marrom-telefone">Telefone</label>
-                </div>
-                <div class="inputbox">
-                    <input type="text" id="input-marrom-cpf" required placeholder="XXX.XXX.XXX-XX">
-                    <label for="cpf" id="label-marrom-cpf">CPF</label>
-                </div>
-                <div class="inputbox">
-                    <input type="text" id="input-marrom-cnpj" required placeholder="XXXX.XXX.XXX/0001-XX">
-                    <label for="cnpj" id="label-marrom-cnpj">CNPJ</label>
-                </div>
-                <div class="inputbox">
-                    <label for="disponibilidade" id="label-marrom-disponibilidade">Disponibilidade</label>
-                        <select id="disponibilidade-marrom" name="disponibilidade">
-                        <option value="frutas">Manhã</option>
-                        <option value="legumes">Tarde</option>
-                        <option value="Ambos">Noite</option>
-                        </select>
-                </div>
-            </div>
-            <div class="row">
-                <div class="inputbox">
-                    <input type="text" id="input-marrom-cep" required placeholder="CEP">
-                    <label for="cep" id="label-marrom-cep">CEP</label>
-                </div>
-            </div>
-            <button id="botao-marrom"><a href="./index.html">Criar Cadastro</a></button>
+            </form>
+            <button id="submit"><a href="./index.html">Criar Cadastro</a></button>
     </div>    
     </main>
 
@@ -67,7 +69,7 @@
     </footer>
 
     <!--script-->
-    
+    <script src="./js/email.js"></script>
 
 </body>
 </html>

@@ -179,7 +179,7 @@
     border-radius: 300px;
 }
 
-#botao-azul{
+#submit{
     box-sizing: border-box;
     position: absolute;
     width: 260px;
@@ -198,4 +198,10 @@
 a{
     text-decoration: none;
     color:  #0537B5;
+}
+
+#volta-pag{
+    position: relative;
+    left: 325px;
+    top: 47px;
 }

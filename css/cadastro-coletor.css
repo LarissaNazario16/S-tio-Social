@@ -239,7 +239,7 @@
     border-radius: 300px;
 }
 
-#botao-marrom{
+#submit{
     box-sizing: border-box;
     position: absolute;
     width: 260px;
@@ -258,4 +258,9 @@
 a{
     text-decoration: none;
     color: #BB844B;
+}
+#volta-pag{
+    position: relative;
+    left: 325px;
+    top: 47px;
 }

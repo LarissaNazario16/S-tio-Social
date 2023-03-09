@@ -21,50 +21,52 @@
 
     <h3 id="titulo-verde">Produtor</h3>
         <div class="row">
-            <div class="inputbox">
-                <input type="text" id="input-verde-nome" required placeholder="Nome completo">
-                <label for="nome" id="label-verde-nome">Nome</label>
-            </div>
-            <div class="inputbox">
-                <input type="email" id="input-verde-email"  required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
-                <label for="email" id="label-verde-email">Email</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="input-verde-telefone"  required placeholder="(XX)XXXXX-XXXX">
-                <label for="tel" id="label-verde-telefone">Telefone</label>
-            </div>
-            <div class="inputbox">
-                <label for="alimento" id="label-verde-alimento">Alimento</label>
-                    <select id="alimento" name="alimento">
-                    <option value="frutas">Frutas</option>
-                    <option value="legumes">Legumes</option>
-                    <option value="Ambos">Ambos</option>
-                    </select>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="input-verde-cpf" required placeholder="XXX.XXX.XXX-XX">
-                <label for="cpf" id="label-verde-cpf">CPF</label>
-            </div>
-            <div class="inputbox">
-                <input type="text" id="input-verde-cnpj" required placeholder="XXXX.XXX.XXX/0001-XX">
-                <label for="cnpj" id="label-verde-cnpj">CNPJ</label>
-            </div>
-            <div class="inputbox">
-                    <label for="disponibilidade" id="label-verde-disponibilidade">Disponibilidade</label>
-                        <select id="disponibilidade" name="disponibilidade">
-                        <option value="frutas">Manhã</option>
-                        <option value="legumes">Tarde</option>
-                        <option value="Ambos">Noite</option>
+            <form action="" method="post">
+                <div class="inputbox">
+                    <input type="text" id="input-verde-nome" required placeholder="Nome completo">
+                    <label for="nome" id="label-verde-nome">Nome</label>
+                </div>
+                <div class="inputbox">
+                    <input type="email" id="input-verde-email"  required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
+                    <label for="email" id="label-verde-email">Email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="text" id="input-verde-telefone"  required placeholder="(XX)XXXXX-XXXX">
+                    <label for="tel" id="label-verde-telefone">Telefone</label>
+                </div>
+                <div class="inputbox">
+                    <label for="alimento" id="label-verde-alimento">Alimento</label>
+                        <select id="alimento" name="alimento">
+                        <option value="frutas">Frutas</option>
+                        <option value="legumes">Legumes</option>
+                        <option value="Ambos">Ambos</option>
                         </select>
                 </div>
-            </div>
-            <div class="row">
                 <div class="inputbox">
-                    <input type="text" id="input-verde-cep" required placeholder="CEP">
-                    <label for="cep" id="label-verde-cep">CEP</label>
+                    <input type="text" id="input-verde-cpf" required placeholder="XXX.XXX.XXX-XX">
+                    <label for="cpf" id="label-verde-cpf">CPF</label>
                 </div>
-            </div>
-        <button id="botao-verde"><a href="./index.html">Criar Cadastro</a></button>
+                <div class="inputbox">
+                    <input type="text" id="input-verde-cnpj" required placeholder="XXXX.XXX.XXX/0001-XX">
+                    <label for="cnpj" id="label-verde-cnpj">CNPJ</label>
+                </div>
+                <div class="inputbox">
+                        <label for="disponibilidade" id="label-verde-disponibilidade">Disponibilidade</label>
+                            <select id="disponibilidade" name="disponibilidade">
+                            <option value="frutas">Manhã</option>
+                            <option value="legumes">Tarde</option>
+                            <option value="Ambos">Noite</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inputbox">
+                        <input type="text" id="input-verde-cep" required placeholder="CEP">
+                        <label for="cep" id="label-verde-cep">CEP</label>
+                    </div>
+                </div>
+            </form>
+        <button id="submit"><a href="./index.html">Criar Cadastro</a></button>
     </div>
     </main>
 
