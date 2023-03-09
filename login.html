@@ -16,15 +16,13 @@
 
     <main>
     <!--formulario-->
-    <div id="container-laranja">
-        <img src="./img/cadastros/login.png" alt="" id="img-login">
-    <h3 id="titulo-laranja">Login</h3>
-        <div class="row">
-                <div class="inputbox">
-                    <input type="email" id="input-azul-email"  required placeholder="Email" onblur="validarEmail()" onfocus="redefinirMsg()">
-                    <label for="email" id="label-azul-email">Email</label>
-                    <small id="textEmail"></small>
-                </div>
+        <div id="container-laranja">
+            <img src="./img/cadastros/login.png" alt="" id="img-login">
+        <h3 id="titulo-laranja">Login</h3>
+            <form action="" method="post">
+                <input type="email" id="input-azul-email" placeholder="Email" required>
+                <label for="email" id="label-azul-email">Email</label>
+                    
 
                 <div class="inputbox">
                     <label for="senha" id="label-azul-senha">Senha</label>
@@ -37,9 +35,10 @@
                     <button type="submit" id="cadastrar" onclick="showModal()">Cadastre-se</button>
                 </section>
 
-                <button id="botao-laranja"><a href="./alimentos.html">Entrar</a></button>
-            </div>
-            </div>
+                <button id="submit"><a href="./alimentos.html">Entrar</a></button>
+            </form>
+        </div>
+
         
        
         <!--modal de cadastro-->

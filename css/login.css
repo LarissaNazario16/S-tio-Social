@@ -23,6 +23,7 @@ h5{
     position: relative;
     left: 100px;
     top: -332px;
+    color: #c97215
 }
 
 #textEmail{
@@ -116,7 +117,7 @@ h5{
     left: 508px;    
 }
 
-#botao-laranja{
+#submit{
     position: absolute;
     width: 312px;
     height: 76px;

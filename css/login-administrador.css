@@ -23,6 +23,7 @@ h5{
     position: relative;
     left: 115px;
     top: 353px;
+    color:#E02130
 }
 
 #titulo-vermelho{
@@ -94,7 +95,7 @@ h5{
     left: 508px;    
 }
 
-#botao-vermelho{
+#submit{
     position: absolute;
     width: 312px;
     height: 76px;
