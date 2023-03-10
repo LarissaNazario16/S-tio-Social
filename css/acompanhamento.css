@@ -1,0 +1,158 @@
+body{
+    overflow-x: hidden;
+}
+
+#seta{
+    position: relative;
+    top:-410px;
+}
+
+#logo{
+    position: absolute;
+    left: 12.79%;
+    top: 20%;
+}
+
+#banner{
+    position: relative;
+    left: -7px;
+    top: -9px;
+    width: 1348px;
+}
+
+#titulo{
+    position: absolute;
+    width: 533px;
+    height: 42px;
+    left: 20px;
+    top: 448px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 42px;
+
+    color: #18456B;
+
+}
+
+#subtitulo{
+    position: absolute;
+    width: 424px;
+    height: 24px;
+    left: 20px;
+    top: 490px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: rgba(24, 69, 107, 0.8);
+}
+
+/*Estilzação tabela*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    WIDTH: 115px;
+    height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tbody{
+    position: relative;
+    top: 30px;
+}
+
+#container-contato{
+    position: relative;
+    top: -2960px;
+}
+
+#endereco{
+    position: absolute;
+    top: 3005px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 300px;
+}
+
+#email{
+    position: absolute;
+    top: 3045px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 500px;
+}
+
+#telefone{
+    position: absolute;
+    top: 3090px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #064275;
+    left: 600px;
+}
+
+#botao-voltar{
+    position: absolute;
+    left: 950px;
+    top: 1520px;
+    width: 180px;
+    height: 50px;
+    background: #0537B5;
+    border-color: #0537B5;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#link-voltar{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+.td-configuracao{
+    text-align: center;
+    width: 35px;
+}
+
+.btn-excluir{
+    background-color: #0537B5;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
