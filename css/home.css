@@ -759,14 +759,14 @@ a{
     top: 3120px;
     width: 180px;
     height: 50px;
-    background: #2E86EA;
-    border-color: #2E86EA;
+    background: #4393EE;
+    border-color: #4393EE;
     border-radius: 15px 15px 0px 0px;
 }
 
 #botao-voltar:hover{
-    background: #4393EE;
-    border-color:#4393EE;
+    background: #2E86EA;
+    border-color:#2E86EA;
 }
 
 #link-voltar{
