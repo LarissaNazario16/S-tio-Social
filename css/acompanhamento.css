@@ -3,21 +3,53 @@ body{
 }
 
 #seta{
-    position: relative;
-    top:-410px;
+    position: absolute;
+    left: 2.34%;
+    right: 93.75%;
+    top: 1.74%;
+    bottom: 95.66%;
+
 }
 
 #logo{
     position: absolute;
-    left: 12.79%;
-    top: 20%;
+    left: 3.79%;
+    top:15%;
+}
+
+#titulo-header{
+    position: absolute;
+    width: 292px;
+    height: 48px;
+    left: 60px;
+    top: 240px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 48px;
+
+    color: #18456B;
+}
+
+#efeito{
+    position: absolute;
+    width: 611px;
+    height: 432px;
+    left: 0px;
+    top: 0px;
+
+    background: url(/img/pag-home/EFEITO.png);
+    border-radius: 0px 0px 1000px 0px;
 }
 
 #banner{
-    position: relative;
+    position: absolute;
     left: -7px;
     top: -9px;
     width: 1348px;
+    background: url(/img/pag-home/banner\ \(2\).png);
 }
 
 #titulo{
@@ -42,7 +74,7 @@ body{
     width: 424px;
     height: 24px;
     left: 20px;
-    top: 490px;
+    top: 500px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -62,10 +94,14 @@ table {
 
 td, th {
     border: 1px solid #dddddd;
-    text-align: left;
+    text-align: center;
     padding: 8px;
     WIDTH: 115px;
     height: 30px;
+}
+
+th{
+    background:#EAF5FF;
 }
 
 tr:nth-child(even) {
@@ -74,12 +110,12 @@ tr:nth-child(even) {
 
 tbody{
     position: relative;
-    top: 30px;
+    top: 550px;
 }
 
 #container-contato{
     position: relative;
-    top: -2960px;
+    top: -2470px;
 }
 
 #endereco{
@@ -118,12 +154,17 @@ tbody{
 #botao-voltar{
     position: absolute;
     left: 950px;
-    top: 1520px;
+    top: 1825px;
     width: 180px;
     height: 50px;
-    background: #0537B5;
-    border-color: #0537B5;
+    background: #4393EE;
+    border-color: #4393EE;
     border-radius: 15px 15px 0px 0px;
+}
+
+#botao-voltar:hover{
+    background: #2E86EA;
+    border-color: #2E86EA;
 }
 
 #link-voltar{
@@ -148,11 +189,18 @@ a{
 }
 
 .btn-excluir{
-    background-color: #0537B5;
+    background-color: #0738B2;
     color: white;
     font-weight: bold;
     cursor: pointer;
     padding: 5px;
     display: inline-block;
     border-radius: 5px;
+    width: 156px;
+    font-size: 30px;
+    height: 39px;
+}
+
+.btn-excluir:hover{
+    background: #0C47DD;
 }
